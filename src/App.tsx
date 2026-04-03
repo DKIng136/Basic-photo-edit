@@ -452,8 +452,8 @@ export default function App() {
                   <stop offset="100%" stopColor="#EC4899" />
                 </linearGradient>
                 <linearGradient id="camera-body" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#3B2667" />
-                  <stop offset="100%" stopColor="#1C192E" />
+                  <stop offset="0%" stopColor="#8B5CF6" />
+                  <stop offset="100%" stopColor="#4C1D95" />
                 </linearGradient>
                 <linearGradient id="lens-grad" x1="100%" y1="0%" x2="0%" y2="100%">
                   <stop offset="0%" stopColor="#FF71B6" />
@@ -481,13 +481,16 @@ export default function App() {
                 d="M25 42C25 38 28 35 32 35H40L44 28H56L60 35H68C72 35 75 38 75 42V68C75 72 72 75 68 75H32C28 75 25 72 25 68V42Z" 
                 fill="#A855F7" 
                 filter="url(#blur-glow)"
-                className="opacity-100"
+                className="opacity-80"
               />
 
               {/* Camera Body */}
               <path 
                 d="M25 42C25 38 28 35 32 35H40L44 28H56L60 35H68C72 35 75 38 75 42V68C75 72 72 75 68 75H32C28 75 25 72 25 68V42Z" 
                 fill="url(#camera-body)" 
+                className="opacity-90"
+                stroke="rgba(255,255,255,0.2)"
+                strokeWidth="0.8"
               />
               
               {/* Lens */}
